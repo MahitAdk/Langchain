@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model = ChatOpenAI()
+model = ChatGoogleGenerativeAI()
 
 chat_history = [
     SystemMessage(content='You are a helpful AI assistant')
